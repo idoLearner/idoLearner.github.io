@@ -3,17 +3,24 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7)),url("../img/bg.png");
+    background: linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7)),url("../img/bg4.webp");
     overflow-x: hidden;
-}
-.hero{
-    background: linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7)),url("../img/cool-background.svg");
-    width: 100%;
-    height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    overflow-x: hidden;
+}
+.hero-img{
+    height: 700px !important;
+    width: 560px;
+}
+.games-size{
+    height: 310px !important;
+}
+.img-left{
+    height: 280px !important;
+}
+.bg{
+    background-color: black;
 }
 .logo{
     cursor: pointer;
@@ -95,6 +102,44 @@ i{
 i:hover{
     transform: translateX(5px);
 }
+/* search*/
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+    top: 50px;
+}
+.search-box:hover > .search-btn{
+   background: white;
+     }
+.search-btn{
+    color: #ffc107;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.search-txt{
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;   
+ line-height: 40px;
+ width: 0px;
+}
+.img-ps{
+    height: 600px !important;
+}
 
 p{
     color: rgb(253, 247, 247);
@@ -103,23 +148,74 @@ p{
 .con-icon{
     font-size: 20px;
 }
-.about-section{
-    background:url("../img/trainer-wall.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 100%;
-}
-.upper-svg{
-    width: 123px;
-    color: #ffc107;
-}
-video{
-    width: 600px;
+.card-hover{
+    background: red;
 }
 .carousel {
     margin-bottom: 4rem;
+}
+.gallery{
+    background:linear-gradient(rgba(1,1,1,0.7),rgba(1,1,1,0.7)), url("../img/pngfind.com-ink-splatter-png-5801.png");
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+/*caroousel*/
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.fa{
+    color: #ffc107;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941!important;
+}
+.product-price{
+    color: #fcb941;
+}
+.rating{
+    font-size: 13px;
+}
+.product-item{
+    width: 300px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -129,14 +225,14 @@ video{
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 32rem;
+    height: 43rem;
 }
 .carousel-item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 43rem;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -171,7 +267,61 @@ line-height: 1;
 /* rtl:remove */
 letter-spacing: -.05rem;
 }
+/*mini-carousel*/
+.product-item{
+    border: 1px solid rgb(219, 219, 219);
+}
+.product-img{
+    position: relative;
+    overflow: hidden;
+}
+.btns{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+.btns button{
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btns button:hover{
+    color: #fcb941;
+}
+.product-img:hover .btns{
+    bottom: 0;
+}
 
+.heart-icon{
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.product-type{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.product-name{
+    transition: all 0.3s ease-in-out;
+}
+.product-name:hover{
+    color: #fcb941!important;
+}
+.product-price{
+    color: #fcb941;
+}
+.rating{
+    font-size: 13px;
+}
+.product-item{
+    width: 300px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
