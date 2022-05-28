@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Permanent+Marker&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Macondo&family=Permanent+Marker&family=Poppins:wght@200&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -43,7 +43,7 @@ ul li a{
 }
 li a::after{
     content: "";
-    background-color: #3746FF;
+    background-color: #ffc107;
     height: 2.5px;
     width: 0%;
     position: absolute;
@@ -60,10 +60,14 @@ h1{
     margin-bottom: 10px;
     font-family: 'Permanent Marker', cursive;
 }
+.text-h{
+    font-size: 60px;
+}
 h1 span{
+    margin: 10px;
     line-height: 10px;  
-    font-size: 90px;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 120px;
+    font-family: 'Homemade Apple', cursive;
 }
 h6{
     color: aliceblue;
@@ -73,23 +77,47 @@ h3{
     color: aliceblue;
     margin-top: 20px;
 }
+.link-update{
+    font-size: 14px;
+    text-decoration: none;
+    transition: .5s;
+}
+#update-page{
+    font-size: 14px;
+    text-decoration: none;
+}
+.link-update:hover{
+    transform: translateX(6px);
+}
+i{
+    transition: .4s;
+}
+i:hover{
+    transform: translateX(5px);
+}
 
 p{
     color: rgb(253, 247, 247);
     line-height: 20px;
 }
 .con-icon{
-    font-size: 23px;
+    font-size: 20px;
 }
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
-
-
+.about-section{
+    background:url("../img/trainer-wall.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+.upper-svg{
+    width: 123px;
+    color: #ffc107;
+}
+video{
+    width: 600px;
+}
 .carousel {
     margin-bottom: 4rem;
 }

@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<title>Project 1</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Project 1</title>
 </head>
-<body>
-	<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg bg-dark navbar-dark ">  
-				<a class="logo navbar-brand ms-4"><img src="img/logo.png" alt="logo"></a>
-				<button class="navbar-toggler me-3 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-						<li class="nav-item"><a class="active nav-link" href="#">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Update</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Character</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-					</ul>
-				</div>
-				<button class="btn btn-warning fw-bold me-4">Download</button>
-			</nav>
+<body>	
+	<nav class="navbar navbar-expand-lg bg-dark navbar-dark ">  
+		<div class="container-fluid">
+			<a class="logo navbar-brand ms-4"><img src="img/logo.png" alt="logo"></a>
+			<button class="navbar-toggler me-3 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+					<li class="nav-item"><a class="active nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Update</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Character</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</div>
+			<button class="btn btn-outline-warning fw-bold me-4">Download</button>
 		</div>
+	</nav>
 		<section id="home" class="hero pt-5">
 			<div class="container">
 				<div class="d-sm-flex justify-content-between align-items-center text-center text-sm-start">
 					<div> 
-						<h3>Epic Games</h3>
-						<h1>FORTNITE <span class="text-primary">III</span></h1>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,<br> recusandae sint reprehenderit?</p>
-						<a href="#" type="button" class="btn btn-warning fw-bold my-2">Play Now !</a>
+						<h3 class="ms-2">Epic Games</h3>
+						<img src="img/banner.png" class="img-fluid w-50" alt="">
+						<p class="ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,<br> recusandae sint reprehenderit?</p>
+						<a href="#" type="button" class="btn btn-warning fw-bold my-2 px-3 ms-2">Play Now !</a>
 					</div>
 						<img class="hero-img img-fluid w-50" src="img/char5.png" alt="">
 				</div>
@@ -43,18 +43,17 @@
 		</section>
 		<section id="update">
 			<div class="container">
-			<div class="row row-cols-1 row-cols-md-3 g-3 my-5">
+			<div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 g-3 my-5">
 				<div class="col">
 					<div class="card shadow-sm">
 						<img src="img/card1.jpg" alt="">
 						<div class="card-body">
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<p class="card-text">New update for Astro...</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<div class="btn-group">
-									<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-									<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+									<a type="button" class="link-update">update...</a>
 								</div>
-								<small class="text-muted">9 mins</small>
+								<small class="text-light">2 mins</small>
 							</div>
 						</div>
 					</div>
@@ -63,13 +62,12 @@
 					<div class="card shadow-sm">
 						<img src="img/card2.png" alt="">
 						<div class="card-body">
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<p class="card-text">The most awaiting moment...</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<div class="btn-group">
-									<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-									<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+									<a type="button" class="link-update">update...</a>
 								</div>
-								<small class="text-muted">9 mins</small>
+								<small class="text-light">15 mins</small>
 							</div>
 						</div>
 					</div>
@@ -78,21 +76,35 @@
 					<div class="card shadow-sm">
 						<img src="img/card3.png" alt="">
 						<div class="card-body">
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<p class="card-text">Sclyde weapon for particular character...</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<div class="btn-group">
-									<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-									<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+									<a type="button" class="link-update">update...</a>
 								</div>
-								<small class="text-muted">9 mins</small>
+								<small class="text-light">2 h</small>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="col-lg text-end text-align-center">
+				<a href="" id="update-page">update <i class="fa-solid fa-angles-right"></i></a>
+				</div>
 			</div> 
 		</div>
 		</section>
-				<div id="myCarousel" class="carousel slide mx-3" data-bs-ride="carousel">
+		<section id="about" class="about-section">
+			<div class="container">
+				<div class="d-sm-flex justify-content-center align-content-center text-center">
+					<div class="mt-5"> 
+						<h1>Actual</h1>
+						<video class="mt-5 img-fluid" controls autoplay loop muted>
+							<source src="vid/Fortnite x Star Wars Lightsabers Trailer.mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+		</section>
+				<!-- <div id="myCarousel" class="carousel slide mx-3" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -138,27 +150,26 @@
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Next</span>
 					</button>
-				</div>
+				</div> -->
 				<div class="container marketing mt-5">
-					<!-- Three columns of text below the carousel -->
 					<div class="row">
 						<div class="col-lg-4">
-							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-							<h2>Heading</h2>
-							<p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-							<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+							<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/mypic.jpg" alt="">
+							<h2 class="text-light">Front end Developer</h2>
+							<p>Super cute and simple guy</p>
+							<p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
 						</div><!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-							<h2>Heading</h2>
-							<p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-							<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+							<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/mypic.jpg" alt="">
+							<h2 class="text-light">Front end Developer</h2>
+							<p>Super cute and simple guy</p>
+							<p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
 						</div><!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-							<h2>Heading</h2>
-							<p>And lastly this, the third column of representative placeholder content.</p>
-							<p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+							<img  class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/mypic.jpg" alt="">
+							<h2 class="text-light">Front end Developer</h2>
+							<p>Super cute and simple guy</p>
+							<p><a class="btn btn-warning" href="#">View details &raquo;</a></p>
 						</div><!-- /.col-lg-4 -->
 					</div><!-- /.row --> 
 				</div> <!-- container -->
@@ -166,52 +177,49 @@
 				<section id="character">
 				 <div class="container"> 
 				<h1 class="featurette-divider text-center text-light">Character</h1>
-				<div class="row featurette" style="background-color: #fff;">
+				<div class="row featurette">
 					<div class="col-md-7">
-						<h2 class="featurette-heading">Raptor <span class="text-danger">Royale Air Force test pilot.</span></h2>
-						<p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+						<h2 class="featurette-heading text-warning">Raptor <span class="text-muted">Royale Air Force test pilot.</span></h2>
+						<p class="lead"></p>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 border">
 						<img src="img/char2.png" class="w-100 ms-3" alt="">
 					</div>
 				</div> 
 				<div class="row featurette" >
 					<div class="col-md-7 order-md-2">
-						<h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-						<p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+						<h2 class="featurette-heading text-warning">Son Guko <span class="text-muted">Super Saiyan </span></h2>
+						<p class="lead"></p>
 					</div>
-					<div class="col-md-5 order-md-1">
+					<div class="col-md-5 order-md-1 border">
 						<img src="img/char4.png" class="w-100" alt="">  
 					</div>
 				</div>
 				<div class="row featurette">
 					<div class="col-md-7">
-						<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-						<p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+						<h2 class="featurette-heading text-warning">Aldrin Richard. <span class="text-muted">Checkmate.</span></h2>
+						<p class="lead"></p>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 border">
 						<img src="img/char1.png" class="w-100" alt="">
 					</div>
 				</div>
 				</div>
 			</section>
-				<hr class="featurette-divider">
-		
-				<!-- /END THE FEATURETTES -->
-		
-	<footer class="bg-dark p-5">
-			<div class="row align-items-center">
-				<div class="col-md">
-					<p>Created by: Jerico Olobia</p>
-				</div>
-				<div class="col-md text-end">
+				<hr class="featurette-divider">	
+				<!-- /END THE FEATURETTES -->	
+	<footer class="bg-dark p-5 container-fluid">
+			<div class="row align-items-center text-center">
+				<div class="col-lg">
 					<a class="mx-2" href=""><i class="fa-brands fa-facebook con-icon"></i></a>
 					<a class="mx-2" href=""><i class="fa-solid fa-at con-icon"></i></a>
 					<a class="mx-2" href=""><i class="fa-brands fa-discord con-icon"></i></a>
 					<a class="mx-2" href=""><i class="fa-brands fa-yahoo con-icon"></i></a>
+					<p class="text-secondary">Created by: Jerico Olobia</p>
+					<p class="text-secondary ">made with <i class="fa-solid fa-heart"></i></i></p>
+					
 				</div>
 			</div>
-
 	</footer>
 		<!-- JavaScript Bundle with Popper -->
 
