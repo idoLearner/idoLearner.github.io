@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../public/partials/head.ejs'); -%>
+  <%-include('../public/partials/nav.ejs'); -%>
+  <body>
+    <section id="home bg-about">
+      <div class="container">
+        <div class="my-5">
+          <div class="contact-section">
+            <h1>Contact Us</h1>
+            <form class="contact-form" action="/" method="post">
+              <input
+                type="text"
+                class="contact-form-text"
+                placeholder="Your name"
+              />
+              <input
+                type="email"
+                class="contact-form-text"
+                placeholder="Your email"
+              />
+              <input
+                type="text"
+                class="contact-form-text"
+                placeholder="Your phone"
+              />
+              <textarea
+                class="contact-form-text"
+                placeholder="Your message"
+              ></textarea>
+              <input
+                type="submit"
+                class="contact-form-btn btn btn-outline-warning px-5"
+                value="Send"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <%- include('../public/partials/footer.ejs'); -%>
+</html>
