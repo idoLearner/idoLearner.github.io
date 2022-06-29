@@ -100,6 +100,14 @@ label {
    background-color: rgb(40, 37, 85);
    border-radius: 10px;
 }
+.bg-grey {
+   background-color: rgb(230, 225, 225);
+   height: 75px;
+   width: 230px;
+}
+.owner {
+   font-size: 50px;
+}
 .sidebar.show {
    margin-left: 0;
 }
@@ -138,7 +146,7 @@ label {
 .content {
    padding: 1.5rem;
    transition: margin-left 0.3s;
-   margin-top: 96px;
+   margin-top: 75px;
 }
 
 body.sidebar-open .content {
@@ -169,9 +177,48 @@ body.sidebar-open .content {
    padding: 0.3rem !important;
    font-size: 0.8rem !important;
 }
+.bg-cal-con {
+   position: relative;
+   height: 80px;
+   border: 1px solid #c5c5c5;
+   border-radius: 8px;
+}
+
+.bg-cal {
+   background-color: #fdb618;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+
+#row-data {
+   text-align: center;
+}
+
+#data-money {
+   width: 200px;
+}
+.cal-name {
+   font-size: 10px;
+}
+.btn-pay {
+   background-color: rgb(40, 37, 85);
+   margin-left: 30px;
+   color: #fff;
+   font-size: 26px;
+   border-radius: 9px;
+}
+@media (min-width: 1062px) {
+   .row-data-class {
+      width: calc(100% - 200px);
+   }
+}
 @media (min-width: 992px) {
    .w-hero {
       width: 50%;
+   }
+   .cal-name {
+      font-size: 12px;
    }
 }
 @media (min-width: 768px) {
@@ -180,6 +227,9 @@ body.sidebar-open .content {
    }
    .w-logo {
       margin-left: 50px;
+   }
+   .text-d {
+      color: #000 !important;
    }
 }
 @media (min-width: 576px) {
@@ -199,5 +249,8 @@ body.sidebar-open .content {
 @media (max-width: 376px) {
    .btn {
       font-size: 10px;
+   }
+   .yel-graph {
+      display: none;
    }
 }
