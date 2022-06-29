@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.css"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Assessment</title>
+   </head>
+   <body class="sidebar-open">
+      <div>
+         <nav class="navbar navbar-light bg-light card fixed-top">
+            <div class="container-fluid px-0">
+               <div class="grid-container">
+                  <div class="d-flex justify-content-between">
+                     <a class="navbar-brand ps-4 fs-1 fw-bold" href="index.html"
+                        ><span class="text-warning">i</span>Rent</a
+                     >
+                     <a
+                        class="navbar-brand das-align d-flex fs-3"
+                        id="sidebar-toggle"
+                        href="#"
+                     >
+                        <i class="fa-solid fa-caret-left mt-2"></i>
+                        <p>Dashboard</p></a
+                     >
+                  </div>
+                  <div></div>
+               </div>
+            </div>
+         </nav>
+         <div class="sidebar show">
+            <ul>
+               <li class="sidebar-item active">
+                  <div>
+                     <span class="ms-5">Dashboard</span>
+                  </div>
+               </li>
+               <li class="sidebar-item mt-3">
+                  <div>
+                     <i class="fa-solid fa-store"></i>
+                     <span class="text-truncate">Marketplace</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-calendar-days"></i>
+                     <span class="text-truncate">Calendar</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-house-chimney-window"></i>
+                     <span class="text-truncate">My Home</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-house-chimney-window"></i>
+                     <span class="text-truncate">My Service</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa fa-list-check"></i>
+                     <span class="text-truncate">To do list</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa fa-tent-arrow-turn-left"></i>
+                     <span class="text-truncate">Virtual Tour</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-user-group"></i>
+                     <span class="text-truncate">Support</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-hand-wave"></i>
+                     <span class="text-truncate">Help</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-tower-cell"></i>
+                     <span class="text-truncate">Community</span>
+                  </div>
+               </li>
+               <li class="sidebar-item">
+                  <div>
+                     <i class="fa-solid fa-sitemap"></i>
+                     <span class="text-truncate">Term & condition</span>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="content">
+            <div class="d-flex justify-content-between">
+               <div class="lh-1 me-5">
+                  <a href="">Home</a>
+                  <p class="text-navy fs-4 fw-bold">
+                     Good morning ka iBoard, Sample Name!
+                  </p>
+                  <p>Here's what's happening with your Rental Experience.</p>
+               </div>
+               <div class="d-flex">
+                  <div>
+                     <i class="fa fa-cloud text-warning fs-2 me-3"></i>
+                  </div>
+                  <div class="card-text lh-1 text-center">
+                     <p class="fs-4 fw-bold text-navy m-1">29.24C - 29.24C</p>
+                     <small class="">Humidity: 73% : Wind: 3.63 km/h</small>
+                  </div>
+               </div>
+               <div class="ms-2">
+                  <div class="card-text text-center">
+                     <small>9:02am, 1st June,2022</small>
+                     <p class="fs-4 fw-bold text-navy">SCATTERED CLOUDS</p>
+                  </div>
+                  <div class="bg-navy create-button">
+                     <a type="submit" class="btn text-light">
+                        <i class="icon me-1 fa-solid fa-plus"></i>
+                        Create
+                        <i class="icon ms-2 fa-solid fa-sort-down"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="card">
+                  <p
+                     class="card-title d-flex bg-navy p-2 text-white justify-content-between"
+                  >
+                     Announcement
+                     <i class="fa-solid fa-sort-down"></i>
+                  </p>
+                  <div class="p-2 lh-1">
+                     <p class="card-text fs-4 fw-bold text-navy">
+                        No Work No Pay Holiday
+                     </p>
+                     <p class="card-text">
+                        Date Posted: 10/10/2022 Time: 12:12pm
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row py-4">
+               <div class="col-md-8 col-12">
+                  <div class="card">
+                     <div class="">
+                        <p
+                           class="card-title d-flex p-2 fw-bold justify-content-between"
+                        >
+                           Rental Expenses Monitoring
+                           <a href="" class="btn btn-navy text-white"
+                              ><i class="size-i me-1 fa fa-angles-left"></i
+                              ><i class="fa-solid fa-calendar-days me-1"></i
+                              >2022<i class="size-i ms-1 fa fa-angles-right"></i
+                           ></a>
+                        </p>
+                        <div class="p-2 lh-1">
+                           <p class="card-text fs-4 fw-bold text-navy">
+                              <i class="fa-solid fa-peso-sign"></i>25,000,00
+                           </p>
+                           <div class="card-text"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 col-12">
+                  <div class="card">
+                     <div class="card-body">Test</div>
+                  </div>
+               </div>
+            </div>
+            <div id="calendar"></div>
+         </div>
+      </div>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+         integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+      <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.min.js"></script>
+
+      <script>
+         let calendar = new FullCalendar.Calendar(
+            document.getElementById("calendar"),
+            {
+               headerToolbar: {
+                  start: "", // will normally be on the left. if RTL, will be on the right
+                  center: "title",
+                  end: "timeGridWeek,dayGridMonth,listWeek", // will normally be on the right. if RTL, will be on the left
+               },
+            }
+         );
+         calendar.render();
+
+         document.querySelector("#sidebar-toggle").onclick = function () {
+            if (document.querySelector(".sidebar").classList.contains("show")) {
+               document.querySelector(".sidebar").classList.remove("show");
+               document.body.classList.remove("sidebar-open");
+            } else {
+               document.querySelector(".sidebar").classList.add("show");
+               document.body.classList.add("sidebar-open");
+            }
+            setTimeout(() => {
+               calendar.updateSize();
+            }, 300);
+         };
+      </script>
+   </body>
+</html>
