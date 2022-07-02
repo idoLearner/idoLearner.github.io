@@ -165,6 +165,9 @@ body.sidebar-open .content {
 .fc-button-group {
    padding: 0.5rem;
 }
+.text-white {
+   color: #f8f9fa !important;
+}
 
 .fc a {
    text-decoration: none !important;
